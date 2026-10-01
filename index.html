@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HumanizeAI — Writing that sounds like you</title>
-    <meta name="description" content="HumanizeAI turns stiff AI drafts into warm, natural writing. Content partnerships and collaborations welcome.">
+    <title>Content partnerships team</title>
+    <meta name="description" content="We work with publishers, bloggers and editors on sponsored articles, guest posts and contextual mentions for online software products.">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
         :root {
@@ -31,19 +31,19 @@
         .hero .tag i { width: 8px; height: 8px; border-radius: 50%; background: var(--violet); display: inline-block; }
         h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 900; line-height: 1.08; letter-spacing: -1px; margin-bottom: 1.1rem; }
         h1 em { font-style: normal; background: linear-gradient(90deg, var(--violet), var(--rose), var(--peach)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .lead { color: var(--muted); font-size: 1.12rem; max-width: 560px; margin: 0 auto 2rem; }
+        .lead { color: var(--muted); font-size: 1.12rem; max-width: 600px; margin: 0 auto 2rem; }
         .actions { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
         .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; padding: 1rem 0 3rem; }
         .card { background: var(--card); backdrop-filter: blur(8px); border: 1px solid var(--line); border-radius: 20px; padding: 1.5rem; }
         .card .emoji { font-size: 1.6rem; margin-bottom: 0.7rem; }
         .card h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: 0.35rem; }
         .card p { font-size: 0.92rem; color: var(--muted); }
-        .strip { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 2.4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem; }
+        .strip { background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 2.4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; margin-bottom: 3rem; }
         .strip h2 { font-size: 1.6rem; font-weight: 900; letter-spacing: -0.5px; margin-bottom: 0.6rem; }
         .strip p { color: var(--muted); }
-        .quote { background: #fff; border-radius: 16px; padding: 1.3rem 1.4rem; font-size: 0.95rem; box-shadow: 0 12px 30px rgba(124,92,255,0.10); }
-        .quote .from { color: #a39bb8; text-decoration: line-through; display: block; margin-bottom: 0.5rem; }
-        .quote .to { display: block; font-weight: 700; }
+        .steps { list-style: none; counter-reset: s; }
+        .steps li { counter-increment: s; background: #fff; border-radius: 14px; padding: 0.9rem 1rem 0.9rem 3rem; margin-bottom: 0.6rem; position: relative; font-size: 0.95rem; box-shadow: 0 8px 22px rgba(124,92,255,0.08); }
+        .steps li::before { content: counter(s); position: absolute; left: 1rem; top: 0.85rem; width: 1.4rem; height: 1.4rem; border-radius: 50%; background: var(--violet); color: #fff; font-weight: 800; font-size: 0.8rem; display: flex; align-items: center; justify-content: center; }
         .partner { text-align: center; padding: 1rem 0 3rem; }
         .partner h2 { font-size: 1.7rem; font-weight: 900; letter-spacing: -0.5px; margin-bottom: 0.5rem; }
         .partner p { color: var(--muted); max-width: 560px; margin: 0 auto 1.4rem; }
@@ -57,46 +57,48 @@
 <body>
     <div class="wrap">
         <nav>
-            <div class="logo">Humanize<span>AI</span></div>
+            <div class="logo">Content<span>Partnerships</span></div>
             <a class="pill pill-soft" href="mailto:evelina.collab@hellohumanizeai.com">Say hello</a>
         </nav>
 
         <section class="hero">
-            <div class="tag"><i></i> Writing assistant for real people</div>
-            <h1>Make your AI drafts sound <em>like you wrote them</em></h1>
-            <p class="lead">HumanizeAI smooths out the stiff, repetitive phrasing of machine text and gives it a natural, human rhythm — without changing what you meant to say.</p>
+            <div class="tag"><i></i> For publishers, bloggers and editors</div>
+            <h1>Content partnerships for <em>online software products</em></h1>
+            <p class="lead">We are a small partnerships team. We work directly with website owners on sponsored articles, guest posts and contextual mentions for the software products we represent.</p>
             <div class="actions">
-                <a class="pill pill-main" href="https://humanizeai.pro">Try HumanizeAI</a>
-                <a class="pill pill-soft" href="mailto:evelina.collab@hellohumanizeai.com">Partner with us</a>
+                <a class="pill pill-main" href="mailto:evelina.collab@hellohumanizeai.com">Work with us</a>
+                <a class="pill pill-soft" href="#how">How we work</a>
             </div>
         </section>
 
         <section class="cards">
-            <div class="card"><div class="emoji">&#9998;</div><h3>Keeps your meaning</h3><p>Rewrites the wording, not the message. Facts, names and structure stay where you put them.</p></div>
-            <div class="card"><div class="emoji">&#127912;</div><h3>Picks up your tone</h3><p>Casual, warm, formal or academic — choose how you want to sound and the text follows.</p></div>
-            <div class="card"><div class="emoji">&#9889;</div><h3>Fast enough to use daily</h3><p>Paste, humanize, copy. Works for emails, blog posts, essays and product descriptions.</p></div>
+            <div class="card"><div class="emoji">&#128221;</div><h3>Guest posts</h3><p>A new article written for your audience. We prepare the text and follow your editorial guidelines.</p></div>
+            <div class="card"><div class="emoji">&#128279;</div><h3>Contextual mentions</h3><p>A relevant mention in an existing article, placed where it genuinely helps the reader.</p></div>
+            <div class="card"><div class="emoji">&#129309;</div><h3>Long-term collaboration</h3><p>Regular placements with sites in tech, education and marketing that fit the products we work with.</p></div>
         </section>
 
-        <section class="strip">
+        <section class="strip" id="how">
             <div>
-                <h2>From "generated" to "written"</h2>
-                <p>The difference is small words: rhythm, contractions, the way a sentence lands. That's what we tune.</p>
+                <h2>How we work</h2>
+                <p>Every conversation is one-to-one. We write to editors personally about a specific site and a specific idea — no mailing lists, no mass campaigns.</p>
             </div>
-            <div class="quote">
-                <span class="from">Utilizing this innovative solution enables users to achieve enhanced productivity across various domains.</span>
-                <span class="to">Honestly? It just helps you get more done — at work, at school, wherever you write.</span>
-            </div>
+            <ol class="steps">
+                <li>We reach out about one concrete placement on your site.</li>
+                <li>You share your price, guidelines and timing.</li>
+                <li>We send the content or the mention for your approval.</li>
+                <li>You publish, we pay. Not interested? Tell us once and we will not write again.</li>
+            </ol>
         </section>
 
         <section class="partner">
-            <h2>Publishers, bloggers, editors</h2>
-            <p>We're happy to collaborate on sponsored articles, contextual mentions and content partnerships with sites in tech, education and marketing. We write the piece ourselves and keep to your guidelines.</p>
+            <h2>Get in touch</h2>
+            <p>Run a site in tech, education or marketing and open to sponsored content? We would be glad to hear your terms.</p>
             <div class="who">Evelina Vasylets</div>
-            <div class="role">Partnerships &amp; collaborations, HumanizeAI</div>
+            <div class="role">Partnerships &amp; collaborations</div>
             <a class="pill pill-main" href="mailto:evelina.collab@hellohumanizeai.com">evelina.collab@hellohumanizeai.com</a>
         </section>
 
-        <footer>&copy; 2026 HumanizeAI &middot; Product site: <a href="https://humanizeai.pro">humanizeai.pro</a> &middot; <a href="/anti-spam-policy.html">Anti-spam policy</a></footer>
+        <footer>&copy; 2026 Content partnerships team &middot; <a href="/anti-spam-policy.html">Anti-spam policy</a></footer>
     </div>
 </body>
 </html>
